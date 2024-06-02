@@ -1,0 +1,13 @@
+tabulate
+rich
+requests
+#json
+#os 
+#dotenv
+#polyswarm_api.api
+#urllib.parse
+#rich.console
+#shutil
+python-dotenv
+polyswarm-api
+rich

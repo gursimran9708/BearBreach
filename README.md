@@ -30,7 +30,6 @@ BearBreach is a comprehensive tool designed for cybersecurity professionals. It 
 - Python 3.8 or higher
 - pip (Python package installer)
 - Git
-- Docker (for containerization)
 
 ### Steps
 

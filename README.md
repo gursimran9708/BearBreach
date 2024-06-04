@@ -17,12 +17,11 @@ BearBreach is a comprehensive tool designed for cybersecurity professionals. It 
 
 ## Features ✨
 
-- **Real-time Threat Detection**: Identify and respond to security breaches as they occur.
-- **Machine Learning Integration**: Utilize advanced algorithms to improve detection accuracy over time.
+- **Command Line Based**: Easy access through your shell/terminal.
+- **Free Threat Intelligence**: Utilize public APIs of popular threat platforms to improve your detection.
 - **Comprehensive Threat Analysis**: Gain insights into the nature and impact of detected threats.
-- **Automated Responses**: Mitigate security incidents automatically with pre-configured responses.
-- **User-friendly Dashboard**: Monitor system status and manage settings through an intuitive interface.
-- **Extensive Reporting**: Generate detailed reports for analysis and compliance purposes.
+- **Minimal Setup**: Follow easy steps and use in your environment.
+- **Multiple Data Sources**: Don't rely on a single source for threat intelligence data, leverage multiple sources using BearBreach.
 
 ## Installation 🛠️
 
@@ -97,5 +96,7 @@ Here we will populate our API key variables:
 
 ## Contact 📞
 Mail: gursimransinghwadhawan@gmail.com
+
 Linkedin: https://in.linkedin.com/in/gursimransw
+
 Medium: https://medium.com/@gursimransw

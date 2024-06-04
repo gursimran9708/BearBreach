@@ -79,7 +79,7 @@ BearBreach is a comprehensive tool designed for cybersecurity professionals. It 
 
 Here we will populate our API key variables:
 
-1. Open a text editor and fill all the fields with their respective keys and hit save.
+1. Open the ".env" in a text editor and fill all the fields with their respective keys and hit save.
    Following are the fields that you'll encounter -
 
         VT_API_KEY=""

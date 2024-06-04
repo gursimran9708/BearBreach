@@ -1,8 +1,9 @@
 # BearBreach 🐻🔒
 
-![BearBreach Logo](path_to_your_logo_image.png)
+![](path_to_your_logo_image.png)![BEAR BREACH FULL LOGO](https://github.com/gursimran9708/BearBreach/assets/82988478/5db213e4-1b28-4972-bd92-292954fde91f)
 
-BearBreach: Uniting Threat Intelligence and Security Monitoring is a versatile tool designed for cybersecurity professionals. It integrates threat intelligence, security monitoring, and efficient management of Indicators of Compromise (IOCs). Leveraging key technologies like Python, Docker, and various threat intelligence APIs, BearBreach empowers users to enhance their cybersecurity defenses.
+
+BearBreach is a comprehensive tool designed for cybersecurity professionals. It allows users to leverage public APIs of popular threat intelligence platforms like Virustotal, Aienvault, Polyswarm, OPSWAT and many more. This tool can be used by SOC analysts, Threat Hunters and Incident responders to query an IOC on multiple threat intelligence platforms at once without the hassle of going to different platforms using web and log in into them individually. Here we just have to register on all of these platorms for once and get their public API keys and that's all authentication you need to use these platforms to your benefit.
 
 ## Table of Contents
 
@@ -37,42 +38,64 @@ BearBreach: Uniting Threat Intelligence and Security Monitoring is a versatile t
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/bearbreach.git
+    git clone https://github.com/gursimran9708/BearBreach.git
     cd bearbreach
     ```
 
-2. Create a virtual environment and activate it:
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required packages:
+2. Install the required packages:
 
     ```bash
     pip install -r requirements.txt
     ```
+    
+3. Setting up the API Keys :
 
+    ```bash
+    nano .env 
+    ```
+    You only need to visit following threat intelligence platfroms, create account and retrieve your API keys:
+   
+    https://www.virustotal.com/gui/         
+    https://www.criminalip.io/              
+    https://malshare.com/                                        
+    https://www.abuseipdb.com/                                       
+    https://hybrid-analysis.com/docs/api/v2                                       
+    https://bazaar.abuse.ch/                                       
+    https://metadefender.opswat.com/                                       
+    https://www.greynoise.io/                                        
+    https://otx.alienvault.com/api                                        
+    https://polyswarm.network/
+                                    
 ## Usage 🚀
 
 1. Configure the application (see [Configuration](#configuration) section).
-2. Run the application:
+2. Run the application (make sure you are inside the folder where "grizzy.py" file is present):
 
     ```bash
-    python main.py
+    python grizzy.py
     ```
 
-3. Access the dashboard at `http://localhost:8000`.
+3. TADAAAA !.
 
 ## Configuration ⚙️
 
-Configuration settings can be found in the `config.json` file. Below is an example configuration:
+Here we will populate our API key variables:
 
-```json
-{
-    "api_key": "your_api_key",
-    "db_connection_string": "your_db_connection_string",
-    "log_level": "INFO"
-}
+1. Open a text editor and fill all the fields with their respective keys and hit save.
+   Following are the fields that you'll encounter -
 
+        VT_API_KEY=""
+        CRIMINALIP_API_KEY=""
+        MALSHARE_API_KEY=""
+        ABUSEIPDB_API_KEY=""
+        FALCON_API_KEY=""
+        MALWAREBAZAAR_API_KEY=""
+        OPSWAT_API_KEY=""
+        GREYNOISE_API_KEY=""
+        OTX_API_KEY=""
+        POLYSWARM_API_KEY=""
+
+## Contact 📞
+Mail: gursimransinghwadhawan@gmail.com
+Linkedin: https://in.linkedin.com/in/gursimransw
+Medium: https://medium.com/@gursimransw
